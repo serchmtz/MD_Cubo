@@ -57,12 +57,12 @@ No intensity changes are implemented in this architecture.
 
 // Pins for SPI comm with the 595 IC. These are hard coded in the library.
 const uint8_t CLK     = 13;    ///< SPI Clock pin number
-const uint8_t OUT_ENA = 12;    ///< 595 Output Enable pin number
-const uint8_t LOAD    = 14;    ///< SPI Load pin number
+const uint8_t LOAD    = 12;    ///< SPI Load pin number
+const uint8_t OUT_ENA = 14;    ///< 595 Output Enable pin number
 const uint8_t DATA    = 27;    ///< SPI Data pin number
 
 
-const uint8_t LAYER_TIME = 5;   ///< Refresh time for each layer, in milliseconds
+const uint8_t LAYER_TIME = 1;   ///< Refresh time for each layer, in milliseconds
 
 const uint8_t CUBE_SIZE = 4;    ///< Cube size in the X, Y and Z axis
 
